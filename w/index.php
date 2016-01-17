@@ -21,7 +21,7 @@ function key_match($keyw,$stra,$e = false){
       }
     }
   }
-  
+
   if($_GET['css_test']) $r = $_GET['css_test'];
   return $r;
 }
@@ -68,15 +68,14 @@ $con=getdata($type,$first);
 
 $c=count($con);
 if($c){
-  
+
   for($i=0;$i<$c;++$i){
   $con[$i]['title']= htmlspecialchars( $con[$i]['title'],ENT_QUOTES);
   $con[$i]['des']= htmlspecialchars( $con[$i]['des'],ENT_QUOTES);
   $a='a';
   $view='<div class="view left"> 点:'.(int)$con[$i]['click'].' 评:'.(int)$con[$i]['comc'].'</div>';
     if($con[$i]['type']=='message'){ $a='div';$view='';}
-    $str .= 
-      '<a class="item" style="background:'.$con[$i]['color'].';" href="article.php?id='.$con[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$con[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$con[$i]['time']).'</span>日<span class="timem">'.date('m',$con[$i]['time']).'</span>月'.date('Y年 D H:i',$con[$i]['time']).'</div><div class="des feeling">'.$con[$i]['des'].'</div><h1 class="title" style="text-align:right">'.$con[$i]['title'].'</h1></a>';
+    $str .= '<a class="item" style="background:'.$con[$i]['color'].';" href="article.php?id='.$con[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$con[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$con[$i]['time']).'</span>日<span class="timem">'.date('m',$con[$i]['time']).'</span>月'.date('Y年 D H:i',$con[$i]['time']).'</div><div class="des feeling">'.$con[$i]['des'].'</div><h1 class="title" style="text-align:right">'.$con[$i]['title'].'</h1></a>';
     }
   }else{
     $note= '没有内容！';
@@ -108,5 +107,3 @@ $yzblog->assign('content',$str);
 $yzblog->assign('css',$css);
 
 $yzblog->display('index.html');
-
-

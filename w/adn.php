@@ -6,9 +6,6 @@ $yzblog->setTemplateDir('../tpl/m/');
 
 $yzblog->assign('title','发布');
 
-
-
-
 $yzblog->display('adn.html');
 
 ?>

@@ -2,6 +2,4 @@
 
 header("location:w/");
 
-
-
 ?>

@@ -3,11 +3,9 @@ include 'inc/config_w.php';
 header("Content-Type:text/html;charset=utf-8");
 $link = mysql_connect(HOST.':'.PORT,USER,PASSWORD);
 if($link){
-  mysql_select_db(DATABASE,$link);
-  mysql_query("set names 'utf8'");
-  
-  
-mysql_query("CREATE TABLE IF NOT EXISTS `".WALL_COMMENT."` (
+    mysql_select_db(DATABASE,$link);
+    mysql_query("set names 'utf8'");
+    mysql_query("CREATE TABLE IF NOT EXISTS `".WALL_COMMENT."` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `author` varchar(30) NOT NULL,
   `content` varchar(420) NOT NULL,
@@ -16,9 +14,9 @@ mysql_query("CREATE TABLE IF NOT EXISTS `".WALL_COMMENT."` (
   `time` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;");
-echo mysql_errno();
+    echo mysql_errno();
 
-mysql_query("CREATE TABLE IF NOT EXISTS `".WALL."` (
+    mysql_query("CREATE TABLE IF NOT EXISTS `".WALL."` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(250) NOT NULL,
   `author` varchar(250) NOT NULL,
@@ -35,9 +33,9 @@ mysql_query("CREATE TABLE IF NOT EXISTS `".WALL."` (
   `time` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;");
-echo mysql_errno();
+    echo mysql_errno();
 
-echo "<br />看到全部为0即安装成功";
+    echo "<br />看到全部为0即安装成功";
 }else{
-  die("链接数据库失败");
+    die("链接数据库失败");
 }
