@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20016793-7473-414e-b1a4-90d3ef289064" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tpl/w/header.html.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tpl/w/indexadmin.html.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/config_w.php.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/adn.html" afterPath="$PROJECT_DIR$/tpl/w/adn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/article.html" afterPath="$PROJECT_DIR$/tpl/w/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/articleadmin.html" afterPath="$PROJECT_DIR$/tpl/w/articleadmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/footer.html" afterPath="$PROJECT_DIR$/tpl/w/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/header.html" afterPath="$PROJECT_DIR$/tpl/w/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/index.html" afterPath="$PROJECT_DIR$/tpl/w/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/indexadmin.html" afterPath="$PROJECT_DIR$/tpl/w/indexadmin.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/w/wxqadminyangzi.php" afterPath="$PROJECT_DIR$/w/wxqadmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/m.css" afterPath="$PROJECT_DIR$/css/m.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="$PROJECT_DIR$/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile_l.css" afterPath="$PROJECT_DIR$/css/mobile_l.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/n.css" afterPath="$PROJECT_DIR$/css/n.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/config_w.php" afterPath="$PROJECT_DIR$/inc/config_w.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/data_w.php" afterPath="$PROJECT_DIR$/inc/data_w.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/setsmarty.php" afterPath="$PROJECT_DIR$/inc/setsmarty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/ubb.php" afterPath="$PROJECT_DIR$/inc/ubb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/all.js" afterPath="$PROJECT_DIR$/js/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
     </list>
     <ignored path="树洞.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,116 +42,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/index.php">
+      <file leaf-file-name="m.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/m.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="38.22222">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="246.22223">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leavemsg.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/leavemsg.php">
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.037037">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <marker date="1453023690975" expanded="true" signature="460:573" placeholder="INSERT INTO ${WALL_COMMENT}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wxqadmin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/wxqadmin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.88889">
+              <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="242" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adn.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/adn.html">
+      <file leaf-file-name="mobile_l.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mobile_l.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.481482">
-              <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="28" />
+            <state vertical-scroll-proportion="-1.4814814">
+              <caret line="705" column="1" selection-start-line="705" selection-start-column="1" selection-end-line="705" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/article.html">
+      <file leaf-file-name="n.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/n.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="88.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1453023763785" expanded="true" signature="1254:1285" placeholder="..." />
-                <marker date="1453023763785" expanded="true" signature="1724:1740" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articleadmin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/articleadmin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="85.03704">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <marker date="1453023775702" expanded="true" signature="1254:1285" placeholder="..." />
-                <marker date="1453023775702" expanded="true" signature="1751:1763" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.54321">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/header.html">
+      <file leaf-file-name="setsmarty.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/setsmarty.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.259259">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/w/index.html">
+      <file leaf-file-name="config_w.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/config_w.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8888889">
-              <caret line="232" column="403" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="32" />
-              <folding>
-                <marker date="1453023818301" expanded="true" signature="1381:1412" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-7.111111">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexadmin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html">
+      <file leaf-file-name="badwords.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/badwords.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4814815">
-              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-              <folding>
-                <marker date="1453023834679" expanded="true" signature="1383:1414" placeholder="..." />
-                <marker date="1453023834679" expanded="true" signature="1892:1904" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-7.703704">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="point.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/point.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="more.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/more.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bg_w.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/bg_w.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -163,8 +142,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tpl/w/indexadmin.html.bak" />
-        <option value="$PROJECT_DIR$/css/m.css" />
-        <option value="$PROJECT_DIR$/css/mobile_l.css" />
         <option value="$PROJECT_DIR$/wx_install.php" />
         <option value="$PROJECT_DIR$/json_w.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -185,6 +162,16 @@
         <option value="$PROJECT_DIR$/tpl/w/header.html" />
         <option value="$PROJECT_DIR$/tpl/w/index.html" />
         <option value="$PROJECT_DIR$/tpl/w/indexadmin.html" />
+        <option value="$PROJECT_DIR$/js/all.js" />
+        <option value="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
+        <option value="$PROJECT_DIR$/inc/ubb.php" />
+        <option value="$PROJECT_DIR$/inc/setsmarty.php" />
+        <option value="$PROJECT_DIR$/inc/data_w.php" />
+        <option value="$PROJECT_DIR$/inc/config_w.php" />
+        <option value="$PROJECT_DIR$/css/m.css" />
+        <option value="$PROJECT_DIR$/css/mobile.css" />
+        <option value="$PROJECT_DIR$/css/mobile_l.css" />
+        <option value="$PROJECT_DIR$/css/n.css" />
       </list>
     </option>
   </component>
@@ -275,6 +262,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="树洞" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treeHole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="树洞" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treeHole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="树洞" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treeHole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="树洞" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treeHole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -307,7 +350,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453023698840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1453023886894</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1453023886894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,22 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/m.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile_l.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -568,12 +601,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4814815">
-          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
           <folding>
             <marker date="1453023834679" expanded="true" signature="1383:1414" placeholder="..." />
             <marker date="1453023834679" expanded="true" signature="1892:1904" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="953" selection-start-line="2" selection-start-column="953" selection-end-line="2" selection-end-column="953" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/ubb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.37037">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/data_w.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.0">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <marker date="1453023945421" expanded="true" signature="198:228" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="294:371" placeholder="SELECT * FRO... ${WALL}" />
+            <marker date="1453023945421" expanded="true" signature="435:490" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="549:649" placeholder="SELECT * FRO... ${WALL}" />
+            <marker date="1453023945421" expanded="true" signature="713:783" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="842:957" placeholder="SELECT * FRO... ${WALL}" />
+            <marker date="1453023945421" expanded="true" signature="1021:1091" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="1150:1265" placeholder="SELECT * FRO... ${WALL}" />
+            <marker date="1453023945421" expanded="true" signature="1329:1386" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="1411:1497" placeholder="SELECT * FRO... ${WALL_COMMENT}" />
+            <marker date="1453023945421" expanded="true" signature="1554:1584" placeholder="SELECT COUNT... " />
+            <marker date="1453023945421" expanded="true" signature="1650:1727" placeholder="SELECT * FRO... ${WALL}" />
+            <marker date="1453023945421" expanded="true" signature="2756:2811" placeholder="SELECT COUNT... ${WALL_COMMENT}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/setsmarty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.259259">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/config_w.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.111111">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/badwords.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.703704">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/point.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/more.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg_w.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/m.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="246.22223">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.88889">
+          <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="242" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile_l.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4814814">
+          <caret line="705" column="1" selection-start-line="705" selection-start-column="1" selection-end-line="705" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/n.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.54321">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

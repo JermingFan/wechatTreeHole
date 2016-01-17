@@ -10,8 +10,6 @@ define('CLASS_1','问答');//栏目1
 define('CLASS_2','表白');//栏目2
 define('CLASS_3','吐槽');//栏目3
 
-
-
 #数据库
 
 #虚拟主机
@@ -43,8 +41,6 @@ define('HOST_S',SAE_MYSQL_HOST_S);//从库
 define('PORT',SAE_MYSQL_PORT);//端口
 define('USER',SAE_MYSQL_USER);//用户名
 define('PASSWORD',SAE_MYSQL_PASS);//密码
-
-
 
 //#下面是数据表
 define('WALL','wechat_wall_content');

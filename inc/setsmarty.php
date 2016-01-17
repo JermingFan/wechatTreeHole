@@ -3,8 +3,8 @@ require('smarty/Smarty.class.php');
 
 class smarty_yzblog extends Smarty {
 
-   function __construct()
-   {
+    function __construct()
+    {
 
         // Class Constructor.
         // These automatically get set with each new instance.
@@ -18,7 +18,7 @@ class smarty_yzblog extends Smarty {
         $this->caching = false;
         $this->cache_lifetime = 120;
         $this->compile_locking = false;
-   }
+    }
 
 }
 ?>
