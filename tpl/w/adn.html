@@ -4,97 +4,96 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 <script src="../js/all.js" type="text/javascript"></script>
 <script type="text/javascript">
-$(document).ready(function() { 
-resizebg();
+    $(document).ready(function() {
+        resizebg();
 
-$(window).resize(function() {  resizebg(); } );
-$("#content").focus(function() {  
-$("#lab").hide();
- } );
-$("#content").blur(function() {  
-if($("#content").val()=="") $("#lab").show();
- } );
+        $(window).resize(function() {  resizebg(); } );
+        $("#content").focus(function() {
+            $("#lab").hide();
+        } );
+        $("#content").blur(function() {
+            if($("#content").val()=="") $("#lab").show();
+        } );
 
-
- } );
+    } );
 </script>
 <style type="text/css">
-.clr { 
-width:0px;
-height:0px;
-padding:0px;
-margin:0px;
- } 
+    .clr {
+        width:0px;
+        height:0px;
+        padding:0px;
+        margin:0px;
+    }
 
-textarea { 
-margin:10px 4px;
-padding:4px;
-border:1px #aaa solid;
-width:95%;
-height:200px;
-display:block;
-background:rgba(255,255,255,0.4);
- } 
+    textarea {
+        margin:10px 4px;
+        padding:4px;
+        border:1px #aaa solid;
+        width:95%;
+        height:200px;
+        display:block;
+        background:rgba(255,255,255,0.4);
+    }
 
-.cls { 
-margin:10px 4px;
-padding:4px 0px;
-color:#888;
- }
+    .cls {
+        margin:10px 4px;
+        padding:4px 0px;
+        color:#888;
+    }
 
-fieldset { 
-color:#888;
-margin:10px 4px;
-padding:4px;
-border:1px #aaa solid;
-/*width:91.7%;*/
- } 
+    fieldset {
+        color:#888;
+        margin:10px 4px;
+        padding:4px;
+        border:1px #aaa solid;
+        /*width:91.7%;*/
+    }
 
-input[type=text] { 
-width:95%;
-display:block;
- } 
+    input[type=text] {
+        width:95%;
+        display:block;
+    }
 
-input { 
-margin:10px 4px;
-padding:4px;
-border:1px #aaa solid;
-background:rgba(255,255,255,0.3);
- } 
+    input {
+        margin:10px 4px;
+        padding:4px;
+        border:1px #aaa solid;
+        background:rgba(255,255,255,0.3);
+    }
 
 </style>
 </head>
 <body>
 <form action="fb.php" type="post">
-<input placeholder="标题/30字内" type="text" name="title" />
-<input placeholder="作者/15字内" type="text" name="author" />
-<input placeholder="标签/多个词用半角“,”分隔" type="text" name="tag" />
-<input placeholder="摘要/140字内" type="text" name="des" />
-<input placeholder="其他说明/300字内" type="text" name="ext" />
+    <input placeholder="标题/30字内" type="text" name="title" />
+    <input placeholder="作者/15字内" type="text" name="author" />
+    <input placeholder="标签/多个词用半角“,”分隔" type="text" name="tag" />
+    <input placeholder="摘要/140字内" type="text" name="des" />
+    <input placeholder="其他说明/300字内" type="text" name="ext" />
 
-<fieldset>
-<legend>选择颜色:</legend>
-<span class="clr" style="border:10px rgb(93,181,11) solid;"><input type="radio" name="color" value="rgba(93,181,11,0.7)" /></span>
+    <fieldset>
+        <legend>选择颜色:</legend>
+        <span class="clr" style="border:10px rgb(93,181,11) solid;"><input type="radio" name="color" value="rgba(93,181,11,0.7)" /></span>
 
-<span class="clr" style=" border:10px rgb(229,182,0) solid;"><input type="radio" name="color" value="rgba(229,182,0,0.7)" /></span>
+        <span class="clr" style=" border:10px rgb(229,182,0) solid;"><input type="radio" name="color" value="rgba(229,182,0,0.7)" /></span>
 
-<span class="clr" style=" border:10px rgb(239,112,39) solid;"><input type="radio" name="color" value="rgba(239,112,39,0.7)" /></span>
+        <span class="clr" style=" border:10px rgb(239,112,39) solid;"><input type="radio" name="color" value="rgba(239,112,39,0.7)" /></span>
 
-<span class="clr" style=" border:10px rgb(215,41,80) solid;"><input type="radio" name="color" value="rgba(215,41,80,0.7)" /></span>
+        <span class="clr" style=" border:10px rgb(215,41,80) solid;"><input type="radio" name="color" value="rgba(215,41,80,0.7)" /></span>
 
-<span class="clr" style=" border:10px rgb(10,106,54) solid;"><input type="radio" name="color" value="rgba(10,106,54,0.7)" /></span>
+        <span class="clr" style=" border:10px rgb(10,106,54) solid;"><input type="radio" name="color" value="rgba(10,106,54,0.7)" /></span>
 
-<span class="clr" style=" border:10px rgb(0,175,215) solid;"><input checked="checked" type="radio" name="color" value="rgba(0,175,215,0.7)" /></span>
-</fieldset>
-<div class="cls">分类：
-<select name="class">
-<option value="1001" selected="selected">心情</option>
-<option value="1">文章</option>
-</select></div>
-<lable id="lab" for="content" style="position:absolute; margin:10px 4px;
+        <span class="clr" style=" border:10px rgb(0,175,215) solid;"><input checked="checked" type="radio" name="color" value="rgba(0,175,215,0.7)" /></span>
+    </fieldset>
+    <div class="cls">分类：
+        <select name="class">
+            <option value="1001" selected="selected">心情</option>
+            <option value="1">文章</option>
+        </select></div>
+    <lable id="lab" for="content" style="position:absolute; margin:10px 4px;
 padding:4px;color:#888;">发表内容</lable>
-<textarea id="content" name="content"></textarea><br />
-<div style="text-align:center;"><button class="button"><span id="mt">发表</span></button></div>
+    <textarea id="content" name="content"></textarea><br />
+    <div style="text-align:center;"><button class="button"><span id="mt">发表</span></button></div>
 </form>
 <hr />
 <cite style="text-align:center;display:block;">4hbang.com</cite>

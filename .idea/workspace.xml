@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20016793-7473-414e-b1a4-90d3ef289064" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tpl/w/header.html.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tpl/w/indexadmin.html.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/articleadmin.php" afterPath="$PROJECT_DIR$/w/articleadmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/del.php" afterPath="$PROJECT_DIR$/w/del.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/delc.php" afterPath="$PROJECT_DIR$/w/delc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/fb.php" afterPath="$PROJECT_DIR$/w/fb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/index.php" afterPath="$PROJECT_DIR$/w/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w/leavemsg.php" afterPath="$PROJECT_DIR$/w/leavemsg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/adn.html" afterPath="$PROJECT_DIR$/tpl/w/adn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/article.html" afterPath="$PROJECT_DIR$/tpl/w/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/articleadmin.html" afterPath="$PROJECT_DIR$/tpl/w/articleadmin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/footer.html" afterPath="$PROJECT_DIR$/tpl/w/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/header.html" afterPath="$PROJECT_DIR$/tpl/w/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/index.html" afterPath="$PROJECT_DIR$/tpl/w/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/w/indexadmin.html" afterPath="$PROJECT_DIR$/tpl/w/indexadmin.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/w/wxqadminyangzi.php" afterPath="$PROJECT_DIR$/w/wxqadmin.php" />
     </list>
     <ignored path="树洞.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,58 +42,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_lkdzs.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_lkdzs.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4285715">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/adn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.148148">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.037037">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/fb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7777778">
-              <caret line="36" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
-              <folding>
-                <marker date="1453023674769" expanded="true" signature="794:1092" placeholder="INSERT INTO `${WALL}`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/w/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="38.22222">
@@ -99,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leavemsg.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leavemsg.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/w/leavemsg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56790125">
+            <state vertical-scroll-proportion="-13.037037">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <marker date="1453023690975" expanded="true" signature="460:573" placeholder="INSERT INTO ${WALL_COMMENT}... " />
@@ -111,36 +63,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articleadmin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/articleadmin.php">
+      <file leaf-file-name="wxqadmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w/wxqadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.925926">
-              <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+            <state vertical-scroll-proportion="-48.0">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="del.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/del.php">
+      <file leaf-file-name="adn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/adn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.481482">
+              <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="88.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <marker date="1453023659945" expanded="true" signature="414:444" placeholder="delete from " />
-                <marker date="1453023659945" expanded="true" signature="467:506" placeholder="delete from " />
+                <marker date="1453023763785" expanded="true" signature="1254:1285" placeholder="..." />
+                <marker date="1453023763785" expanded="true" signature="1724:1740" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w/delc.php">
+      <file leaf-file-name="articleadmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/articleadmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="85.03704">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <marker date="1453023775702" expanded="true" signature="1254:1285" placeholder="..." />
+                <marker date="1453023775702" expanded="true" signature="1751:1763" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/footer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="7" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/w/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.8888889">
+              <caret line="232" column="403" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="32" />
               <folding>
-                <marker date="1453023645122" expanded="true" signature="414:452" placeholder="delete from " />
+                <marker date="1453023818301" expanded="true" signature="1381:1412" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexadmin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4814815">
+              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+              <folding>
+                <marker date="1453023834679" expanded="true" signature="1383:1414" placeholder="..." />
+                <marker date="1453023834679" expanded="true" signature="1892:1904" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -169,6 +177,14 @@
         <option value="$PROJECT_DIR$/w/fb.php" />
         <option value="$PROJECT_DIR$/w/index.php" />
         <option value="$PROJECT_DIR$/w/leavemsg.php" />
+        <option value="$PROJECT_DIR$/w/wxqadmin.php" />
+        <option value="$PROJECT_DIR$/tpl/w/adn.html" />
+        <option value="$PROJECT_DIR$/tpl/w/article.html" />
+        <option value="$PROJECT_DIR$/tpl/w/articleadmin.html" />
+        <option value="$PROJECT_DIR$/tpl/w/footer.html" />
+        <option value="$PROJECT_DIR$/tpl/w/header.html" />
+        <option value="$PROJECT_DIR$/tpl/w/index.html" />
+        <option value="$PROJECT_DIR$/tpl/w/indexadmin.html" />
       </list>
     </option>
   </component>
@@ -241,6 +257,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="树洞" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treeHole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -267,7 +301,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453023579147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1453023698840</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1453023698840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -306,14 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="241" column="57" selection-start-line="241" selection-start-column="57" selection-end-line="241" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/m.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -326,14 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="241" column="57" selection-start-line="241" selection-start-column="57" selection-end-line="241" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -470,10 +494,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/w/leavemsg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56790125">
+        <state vertical-scroll-proportion="-13.037037">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <marker date="1453023690975" expanded="true" signature="460:573" placeholder="INSERT INTO ${WALL_COMMENT}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w/wxqadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-48.0">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/adn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.481482">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="88.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1453023763785" expanded="true" signature="1254:1285" placeholder="..." />
+            <marker date="1453023763785" expanded="true" signature="1724:1740" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/articleadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="85.03704">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <marker date="1453023775702" expanded="true" signature="1254:1285" placeholder="..." />
+            <marker date="1453023775702" expanded="true" signature="1751:1763" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8888889">
+          <caret line="232" column="403" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="32" />
+          <folding>
+            <marker date="1453023818301" expanded="true" signature="1381:1412" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/w/indexadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4814815">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+          <folding>
+            <marker date="1453023834679" expanded="true" signature="1383:1414" placeholder="..." />
+            <marker date="1453023834679" expanded="true" signature="1892:1904" placeholder="..." />
           </folding>
         </state>
       </provider>
