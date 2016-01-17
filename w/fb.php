@@ -15,26 +15,26 @@ $color=$_POST['color'];
 $ext=$_POST['ext'];
 
 if(!get_magic_quotes_gpc()){
-$title= addslashes($_POST['title']);
-$author= addslashes($_POST['author']);
-$tag= addslashes($_POST['tag']);
-$des= addslashes($_POST['des']);
-$content= addslashes($_POST['content']);
-$class= (int)addslashes($_POST['class']);
-$color= addslashes($_POST['color']);
-$ext= addslashes($_POST['ext']);
+    $title= addslashes($_POST['title']);
+    $author= addslashes($_POST['author']);
+    $tag= addslashes($_POST['tag']);
+    $des= addslashes($_POST['des']);
+    $content= addslashes($_POST['content']);
+    $class= (int)addslashes($_POST['class']);
+    $color= addslashes($_POST['color']);
+    $ext= addslashes($_POST['ext']);
 }
 if(ltrim($content)){
-$error=-11;
-$link=mysql_connect(HOST.':'.PORT,USER,PASSWORD);
-if($link){
-  mysql_select_db(DATABASE,$link);
-  
-  mysql_query("INSERT INTO `".WALL."` SET `title` = '".$title."', `author` = '".$author."', `tag` = '".$tag."', `des` = '".$des."', `content` = '".$content."', `class` = '".$class."', `color` = '".$color."', `ext` = '".$ext."', `ctime`= '".time()."',`top` = '0', `click` = '0', `good` = '0', `time` = '".time()."'");
-  $error= mysql_errno();
+    $error=-11;
+    $link=mysql_connect(HOST.':'.PORT,USER,PASSWORD);
+    if($link){
+        mysql_select_db(DATABASE,$link);
 
-}
-}else $error=-1;
+        mysql_query("INSERT INTO `".WALL."` SET `title` = '".$title."', `author` = '".$author."', `tag` = '".$tag."', `des` = '".$des."', `content` = '".$content."', `class` = '".$class."', `color` = '".$color."', `ext` = '".$ext."', `ctime`= '".time()."',`top` = '0', `click` = '0', `good` = '0', `time` = '".time()."'");
+        $error= mysql_errno();
+
+    }
+}else $error = -1;
 
 echo $error;
 
