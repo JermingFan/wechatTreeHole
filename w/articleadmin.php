@@ -47,7 +47,7 @@ $yzblog->setTemplateDir('../tpl/w/');
 $type=$_GET['type'];
 $id=(int)$_GET['id'];
 
-$con=getdata($type,0,$id);
+$con = getdata($type,0,$id);
 if(!count($con)) die('Id error!');
 
 $text=nl2br(htmlspecialchars($con[0]['content']));
@@ -70,19 +70,18 @@ if($c){
         $comment[$i]['title']= htmlspecialchars( $comment[$i]['title'],ENT_QUOTES);
         $comment[$i]['des']= htmlspecialchars( $comment[$i]['des'],ENT_QUOTES);
 
-        $a='div';$view='';
-        $str .=
-            '<'.$a.' class="item" style="background:'.$comment[$i]['color'].';" href="article.php?id='.$comment[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$comment[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$comment[$i]['time']).'</span>日<span class="timem">'.date('m',$comment[$i]['time']).'</span>月'.date('Y年 D H:i',$comment[$i]['time']).'</div><h1 class="title">'.$comment[$i]['title'].'</h1><div class="des feeling">'.$comment[$i]['des'].'</div><br /><a style="color: #fff;" href="delc.php?id='.$comment[$i]['id'].'">删除它</a></'.$a.'>';
+        $a = 'div';
+        $view = '';
+        $str .= '<'.$a.' class="item" style="background:'.$comment[$i]['color'].';" href="article.php?id='.$comment[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$comment[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$comment[$i]['time']).'</span>日<span class="timem">'.date('m',$comment[$i]['time']).'</span>月'.date('Y年 D H:i',$comment[$i]['time']).'</div><h1 class="title">'.$comment[$i]['title'].'</h1><div class="des feeling">'.$comment[$i]['des'].'</div><br /><a style="color: #fff;" href="delc.php?id='.$comment[$i]['id'].'">删除它</a></'.$a.'>';
     }
 }else{
     $note= '没有评论，来一条吧～';
 }
-$tttt="树洞";
-if($con[0]['class']<1000) $tttt="心愿";
-if($con[0]['class']>2000) $tttt="表白";
+$tttt = "树洞";
+if($con[0]['class']<1000) $tttt = "心愿";
+if($con[0]['class']>2000) $tttt = "表白";
 
 if(!ltrim($con[0]['author'])) $con[0]['title']="匿名";
-
 
 $yzblog->assign('title','微信墙后台管理');
 $yzblog->assign('tttt',$tttt);

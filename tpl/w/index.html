@@ -2,15 +2,12 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-//resizebg();
         wait();
 
         if( $.cookie("nickname") !== null) {
             $('.nickname').val($.cookie("nickname"));
             $('#nknm').text($.cookie("nickname")+' ');
         }
-//$(window).resize(function() {  resizebg();wait(); } );
-
 
         var ts='<img src="../img/more.gif" /><span>加载中……</span>';
         var stop=true;

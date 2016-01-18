@@ -63,21 +63,20 @@ if($link){
 
 }
 
-$comment=getdata('comment',0,"",$id);
+$comment = getdata('comment',0,"",$id);
 
-$c=count($comment);
+$c = count($comment);
 if($c){
 
     for($i=0;$i<$c;++$i){
         $comment[$i]['title']= htmlspecialchars( $comment[$i]['title'],ENT_QUOTES);
         $comment[$i]['des']= htmlspecialchars( $comment[$i]['des'],ENT_QUOTES);
 
-        $a='div';$view='';
-        $str .=
-            '<'.$a.' class="item" style="background:'.$comment[$i]['color'].';" href="article.php?id='.$comment[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$comment[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$comment[$i]['time']).'</span>日<span class="timem">'.date('m',$comment[$i]['time']).'</span>月'.date('Y年 D H:i',$comment[$i]['time']).'</div><div class="des feeling">'.$comment[$i]['des'].'</div><h1 class="title">'.$comment[$i]['title'].'</h1></'.$a.'>';
+        $a = 'div';$view='';
+        $str .= '<'.$a.' class="item" style="background:'.$comment[$i]['color'].';" href="article.php?id='.$comment[$i]['id'].'"><img class="point" src="../img/point.png" /><div class="num none">'.($i+$first+1).'</div><div class="view left">#'.$comment[$i]['lou'].'</div>'.$view.'<div class="time right"><span class="timed">'.date('d',$comment[$i]['time']).'</span>日<span class="timem">'.date('m',$comment[$i]['time']).'</span>月'.date('Y年 D H:i',$comment[$i]['time']).'</div><div class="des feeling">'.$comment[$i]['des'].'</div><h1 class="title">'.$comment[$i]['title'].'</h1></'.$a.'>';
     }
 }else{
-    $note= '没有评论，来一条吧～';
+    $note = '没有评论，来一条吧～';
 }
 $tttt = CLASS_1;
 if($con[0]['class'] == 1001) $tttt = CLASS_2;
